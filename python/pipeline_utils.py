@@ -18,9 +18,9 @@ from scipy.io import loadmat
 from colour_demosaicing import demosaicing_CFA_Bayer_Menon2007
 import struct
 
-from .dng_opcode import parse_opcode_lists
-from .exif_data_formats import exif_formats
-from .exif_utils import parse_exif_tag, parse_exif, get_tag_values_from_ifds
+from dng_opcode import parse_opcode_lists
+from exif_data_formats import exif_formats
+from exif_utils import parse_exif_tag, parse_exif, get_tag_values_from_ifds
 
 
 def get_visible_raw_image(image_path):

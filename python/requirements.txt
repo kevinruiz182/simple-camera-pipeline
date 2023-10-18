@@ -1,6 +1,6 @@
-numpy==1.22.0
-scipy==1.3.1
-opencv-python==4.1.1.26
-rawpy==0.14.0
-exifread==2.1.2
-colour-demosaicing==0.1.5
+numpy==1.25.1
+scipy==1.11.1
+opencv-python==4.8.0.76
+rawpy==0.18.1
+ExifRead==3.0.0
+colour-demosaicing==0.2.4

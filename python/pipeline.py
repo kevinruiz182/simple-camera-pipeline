@@ -1,5 +1,5 @@
 import numpy as np
-from python.pipeline_utils import get_visible_raw_image, get_metadata, normalize, white_balance, demosaic, \
+from pipeline_utils import get_visible_raw_image, get_metadata, normalize, white_balance, demosaic, \
     apply_color_space_transform, transform_xyz_to_srgb, apply_gamma, apply_tone_map, fix_orientation, \
     lens_shading_correction
 

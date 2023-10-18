@@ -3,8 +3,8 @@ import os
 import cv2
 import numpy as np
 
-from python.pipeline import run_pipeline_v2
-from python.pipeline_utils import get_visible_raw_image, get_metadata
+from pipeline import run_pipeline_v2
+from pipeline_utils import get_visible_raw_image, get_metadata
 
 params = {
     'input_stage': 'raw',  # options: 'raw', 'normal', 'white_balance', 'demosaic', 'xyz', 'srgb', 'gamma', 'tone'
@@ -15,7 +15,7 @@ params = {
 }
 
 # processing a directory
-images_dir = '../data/'
+images_dir = '/home/kirv/kian/code/practice_cv/simple-camera-pipeline/data'
 image_paths = glob.glob(os.path.join(images_dir, '*.dng'))
 for image_path in image_paths:
 
